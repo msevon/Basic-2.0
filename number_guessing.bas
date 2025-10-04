@@ -1,0 +1,6 @@
+        10 PRINT "GUESS NUMBER 1-10"
+        20 LET N = INT(RND(1)*10)+1
+        30 INPUT "YOUR GUESS";G
+        40 IF G=N THEN PRINT "CORRECT!":END
+        50 PRINT "WRONG, TRY AGAIN"
+        60 GOTO 30
