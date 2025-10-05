@@ -9,3 +9,6 @@ A simple number guessing game. The computer picks a random number between 1 and 
 
 ### matrix_characters.bas
 A visual effect program that creates green appearing characters on screen, similar to the Matrix movie effect. It sets up a black background with green text and continuously displays random characters at random screen positions.
+
+### disco_screen.bas
+A visual effect program that makes the screen flash in random colors, i.e. disco lights.
