@@ -2,15 +2,15 @@
 20 print "***** matrix calculator *****"
 30 print "1=add  2=subtract  3=multiply  0=quit"
 
-40 input "select operation ";o
-50 if o=0 then end
-60 input "number of rows for matrix a: ";r1
-70 input "number of columns for matrix a: ";c1
-80 input "number of rows for matrix b: ";r2
-90 input "number of columns for matrix b: ";c2
+40 dim a(10,10),b(10,10),res(10,10)
+50 input "select operation ";o
+60 if o=0 then end
+70 input "number of rows for matrix a: ";r1
+80 input "number of columns for matrix a: ";c1
+90 input "number of rows for matrix b: ";r2
+100 input "number of columns for matrix b: ";c2
 
-100 if o=3 and c1<>r2 then print "error: columns of a must equal rows of b" : goto 40
-110 dim a(10,10),b(10,10),res(10,10)
+110 if o=3 and c1<>r2 then print "error: columns of a must equal rows of b" : goto 50
 
 120 print "enter matrix a:"
 130 for i=1 to r1
@@ -38,7 +38,7 @@
 320 if o=1 then gosub 500
 330 if o=2 then gosub 600
 340 if o=3 then gosub 700
-350 goto 40
+350 goto 50
 
 500 rem --- addition ---
 510 for i=1 to r1
