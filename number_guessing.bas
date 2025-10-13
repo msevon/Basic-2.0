@@ -1,6 +1,6 @@
-10 PRINT "GUESS NUMBER 1-10"
-20 LET N = INT(RND(1)*10)+1
-30 INPUT "YOUR GUESS";G
-40 IF G=N THEN PRINT "CORRECT!":END
-50 PRINT "WRONG, TRY AGAIN"
-60 GOTO 30
+10 print "guess number 1-10"
+20 let n = int(rnd(1)*10)+1
+30 input "your guess";g
+40 if g=n then print "correct!":end
+50 print "wrong, try again"
+60 goto 30

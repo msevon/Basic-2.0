@@ -1,6 +1,6 @@
-10 FOR I=1 TO 100
-20 POKE 53280,INT(RND(1)*16)
-30 POKE 53281,INT(RND(1)*16)
-40 FOR T=1 TO 100:NEXT
-50 NEXT
-60 GOTO 10
+10 for i=1 to 100
+20 poke 53280,int(rnd(1)*16)
+30 poke 53281,int(rnd(1)*16)
+40 for t=1 to 100:next
+50 next
+60 goto 10

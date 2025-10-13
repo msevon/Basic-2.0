@@ -1,5 +1,5 @@
-10 POKE 53280,0:POKE 53281,0
-20 PRINT CHR$(147)
-30 FOR I=55296 TO 56295:POKE I,5:NEXT I
-40 POKE 1024+INT(RND(1)*1000),33+INT(RND(1)*93)
-50 GOTO 40
+10 poke 53280,0:poke 53281,0
+20 print chr$(147)
+30 for i=55296 to 56295:poke i,5:next i
+40 poke 1024+int(rnd(1)*1000),33+int(rnd(1)*93)
+50 goto 40
