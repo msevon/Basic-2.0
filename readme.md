@@ -7,6 +7,9 @@ This repository contains simple programs written in Commodore 64 BASIC 2.0.
 ### disco_screen.bas
 A visual effect program that makes the screen flash in random colors, i.e. disco lights.
 
+### hakopirtti_fishing.bas
+Simple fishing game.
+
 ### matrix_calculator.bas
 Matrix calculator that allows the user to input two matrices and perform addition, subtraction, or multiplication. It displays both input matrices and the resulting matrix on the screen.
 
